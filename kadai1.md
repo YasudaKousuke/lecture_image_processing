@@ -9,8 +9,8 @@ ORG=imread('Eden.png'); % 原画像の入力
 imagesc(ORG); axis image; % 画像の表示
 ```
 **実行結果1_1**  
-![原画像](https://github.com/YasudaKousuke/lecture_image_processing/blob/master/image/org.png?raw=true)
-図1_1 原画像
+![原画像](https://github.com/YasudaKousuke/lecture_image_processing/blob/master/image/org.png?raw=true)  
+図1_1 原画像  
 1/2サンプリング
 ---
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．  
